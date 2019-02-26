@@ -1,0 +1,23 @@
+/* Classes to set flex property to numeric value */
+.flex-1{  flex: 1;  }
+.flex-2{  flex: 2;  }
+.flex-3{  flex: 3;  }
+.flex-4{  flex: 4;  }
+.flex-5{  flex: 5;  }
+
+/* Column / Row containers */
+.fbx-v {
+    display: flex;
+    flex-direction: column;
+}
+
+.fbx-h {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Flexbox with children centered vertically and horizontally */
+.fbx-center-children {
+    align-items: center;
+    justify-content: center;
+}
