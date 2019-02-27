@@ -1,4 +1,4 @@
-var app = angular.module("sidgBlogApp", [
+var app = angular.module("sidgApp", [
     'ui.router',
 ]);
 
